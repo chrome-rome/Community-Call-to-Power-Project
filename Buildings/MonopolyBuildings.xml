@@ -1796,7 +1796,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ESTATE</BuildingType>
-			<ResourceType>RESOURCE_POTATA</ResourceType>
+			<ResourceType>RESOURCE_POTATO</ResourceType>
 			<Cost>1</Cost>
 		</Row>
 		<Row>
