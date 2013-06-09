@@ -158,11 +158,11 @@
 		</ScrollPanel>
 
 		<!-- Nuclear - Revolutionary Warfare Techs -->
-		<ScrollPanel Hidden="1" Anchor="C,C" Size="920,499" Vertical="0" ID="RevolutionaryWarfareTechTreeScrollPanel">
+		<ScrollPanel Hidden="1" Anchor="C,C" Size="920,499" Vertical="0" ID="RevWarTechTreeScrollPanel">
 
 			<UpButton   Offset="114,20"  Anchor="L,B"  AnchorSide="i,o"  Style="ScrollBarLeft"   />
 			<DownButton Offset="2,20"    Anchor="R,B"  AnchorSide="i,o"  Style="ScrollBarRight"  />
-			<ScrollBar  Offset="19,20"   Anchor="R,B"  AnchorSide="i,o"  Style="ScrollBar"       Length="900" ID="RevolutionaryWarfareTechTreeScrollBar"/>
+			<ScrollBar  Offset="19,20"   Anchor="R,B"  AnchorSide="i,o"  Style="ScrollBar"       Length="900" ID="RevWarTechTreeScrollBar"/>
 
 		</ScrollPanel>
 

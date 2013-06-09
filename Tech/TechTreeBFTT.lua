@@ -40,8 +40,8 @@ local g_PipeScience = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", C
 local g_TechInstanceScience = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.ScienceTechTreeScrollPanel );
 local g_PipeSocialC = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.SocialCTechTreeScrollPanel );
 local g_TechInstanceSocialC = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.SocialCTechTreeScrollPanel );
-local g_PipeRevolutionaryWarfare = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.RevolutionaryWarfareTechTreeScrollPanel );
-local g_TechInstanceRevolutionaryWarfare = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.RevolutionaryWarfareTechTreeScrollPanel );
+local g_PipeRevWar = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.RevWarTechTreeScrollPanel );
+local g_TechInstanceRevWar = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.RevWarTechTreeScrollPanel );
 local g_PipeMolecule = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.MoleculeTechTreeScrollPanel );
 local g_TechInstanceMolecule = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.MoleculeTechTreeScrollPanel );
 local g_PipeEnvironment = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.EnvironmentTechTreeScrollPanel );
@@ -138,7 +138,7 @@ function InitialSetup()
 	Controls.IndustrialRTechTreeScrollBar:SetSizeX( Controls.IndustrialRTechTreeScrollPanel:GetSize().x - 150 );
 	Controls.ScienceTechTreeScrollBar:SetSizeX( Controls.ScienceTechTreeScrollPanel:GetSize().x - 150 );
 	Controls.SocialCTechTreeScrollBar:SetSizeX( Controls.SocialCTechTreeScrollPanel:GetSize().x - 150 );
-	Controls.RevolutionaryWarfareTechTreeScrollBar:SetSizeX( Controls.RevolutionaryWarfareTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.RevWarTechTreeScrollBar:SetSizeX( Controls.RevWarTechTreeScrollPanel:GetSize().x - 150 );
 	Controls.MoleculeTechTreeScrollBar:SetSizeX( Controls.MoleculeTechTreeScrollPanel:GetSize().x - 150 );
 	Controls.EnvironmentTechTreeScrollBar:SetSizeX( Controls.EnvironmentTechTreeScrollPanel:GetSize().x - 150 );
 	Controls.ElectricalTechTreeScrollBar:SetSizeX( Controls.ElectricalTechTreeScrollPanel:GetSize().x - 150 );
@@ -276,7 +276,7 @@ function InitialSetup()
 				g_PipeManager = g_PipeSocialC
 				PCat = "TECHTREE_SOCIAL_CLASSES"
 			elseif tech.TechCat == "TECHTREE_REVOLUTIONARY_WARFARE" and prereq.TechCat == "TECHTREE_REVOLUTIONARY_WARFARE" then
-				g_PipeManager = g_PipeRevolutionaryWarfare
+				g_PipeManager = g_PipeRevWar
 				PCat = "TECHTREE_REVOLUTIONARY_WARFARE"
 			elseif tech.TechCat == "TECHTREE_MOLECULE" and prereq.TechCat == "TECHTREE_MOLECULE" then
 				g_PipeManager = g_PipeMolecule
@@ -416,7 +416,7 @@ function InitialSetup()
 				g_PipeManager = g_PipeSocialC
 				PCat = "TECHTREE_SOCIAL_CLASSES"
 			elseif tech.TechCat == "TECHTREE_REVOLUTIONARY_WARFARE" then
-				g_PipeManager = g_PipeRevolutionaryWarfare
+				g_PipeManager = g_PipeRevWar
 				PCat = "TECHTREE_REVOLUTIONARY_WARFARE"
 			elseif tech.TechCat == "TECHTREE_MOLECULE" then
 				g_PipeManager = g_PipeMolecule
@@ -629,7 +629,7 @@ function InitialSetup()
 	Controls.IndustrialRTechTreeScrollPanel:CalculateInternalSize();
 	Controls.ScienceTechTreeScrollPanel:CalculateInternalSize();
 	Controls.SocialCTechTreeScrollPanel:CalculateInternalSize();
-	Controls.RevolutionaryWarfareTechTreeScrollPanel:CalculateInternalSize();
+	Controls.RevWarTechTreeScrollPanel:CalculateInternalSize();
 	Controls.MoleculeTechTreeScrollPanel:CalculateInternalSize();
 	Controls.EnvironmentTechTreeScrollPanel:CalculateInternalSize();
 	Controls.ElectricalTechTreeScrollPanel:CalculateInternalSize();
@@ -702,7 +702,7 @@ function AddTechButton( tech )
 			g_TechInstanceManager = g_TechInstanceSocialC
 			PCat = "TECHTREE_SOCIAL_CLASSES"
 		elseif tech.TechCat == "TECHTREE_REVOLUTIONARY_WARFARE" then
-			g_TechInstanceManager = g_TechRevolutionaryWarfare
+			g_TechInstanceManager = g_TechRevWar
 			PCat = "TECHTREE_REVOLUTIONARY_WARFARE"
 		elseif tech.TechCat == "TECHTREE_MOLECULE" then
 			g_TechInstanceManager = g_TechInstanceMolecule
@@ -826,7 +826,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -857,7 +857,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -887,7 +887,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -917,7 +917,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -947,7 +947,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -977,7 +977,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1007,7 +1007,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1037,7 +1037,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1067,7 +1067,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1097,7 +1097,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1127,7 +1127,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1157,7 +1157,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1187,7 +1187,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(false);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1217,7 +1217,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(false);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1247,7 +1247,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(false);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1277,7 +1277,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(false);
+		Controls.RevWarTechTreeScrollPanel:SetHide(false);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1307,7 +1307,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(false);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1337,7 +1337,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(false);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1367,7 +1367,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(false);
@@ -1396,7 +1396,7 @@ function OnDisplay( popupInfo )
 		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
@@ -1427,7 +1427,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1457,7 +1457,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1487,7 +1487,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1517,7 +1517,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1547,7 +1547,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1577,7 +1577,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
@@ -1607,7 +1607,7 @@ function OnDisplay( popupInfo )
 		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
 		Controls.ScienceTechTreeScrollPanel:SetHide(true);
 		Controls.SocialCTechTreeScrollPanel:SetHide(true);
-		Controls.RevolutionaryWarfareTechTreeScrollPanel:SetHide(true);
+		Controls.RevWarTechTreeScrollPanel:SetHide(true);
 		Controls.MoleculeTechTreeScrollPanel:SetHide(true);
 		Controls.EnvironmentTechTreeScrollPanel:SetHide(true);
 		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
