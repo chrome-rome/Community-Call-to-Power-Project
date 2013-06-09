@@ -5,7 +5,7 @@
     <Stability>Beta</Stability>
     <Teaser>Mod loosely based on the popular Call to Power games.</Teaser>
     <Description>Mod loosely based on the popular Call to Power games.
-6/6/2013</Description>
+6/8/2013</Description>
     <Authors>Erik</Authors>
     <HideSetupGame>1</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
@@ -31,7 +31,7 @@
     <File md5="F2B3CE294FBBE85D0B567FBDBC2452E2" import="0">Art Defines/Units/UnitInfoMemberInfos.sql</File>
     <File md5="3AB86B231208CDD03310C8DEFEBDCCAA" import="0">Art Defines/Units/UnitInfos.sql</File>
     <File md5="86C770B7EB54B8BFF07AF367B59DC22C" import="0">Art Defines/Units/UnitMemberInfos.sql</File>
-    <File md5="1FB1E8DB7CA7FAE1F6EF5112979AA9EF" import="1">Art/Font Icons/CCTPFontIconAtlas.dds</File>
+    <File md5="868D7A76CD654242B33A347D4AD5A359" import="1">Art/Font Icons/CCTPFontIconAtlas.dds</File>
     <File md5="75D953AD8720CC650CBEF982BD13A86C" import="1">Art/Font Icons/CCTPFontIconAtlas.ggxml</File>
     <File md5="81644D7E27AACD4671792FA34E2CB317" import="1">Art/Icons/Building Icons/buildingatlasFour.dds</File>
     <File md5="DED849FF1C95A0877A8217943CE662A4" import="1">Art/Icons/Building Icons/buildingatlasFour1024.dds</File>
@@ -95,10 +95,10 @@
     <File md5="9F273F96CBD7D4A13CFB43B4DC8E5DAD" import="1">Art/Icons/Religion/religioussymbolswhite48_expansion.dds</File>
     <File md5="A54F4AC6B3B993BB3606AB592796FC4F" import="1">Art/Icons/Religion/religioussymbolswhite64_expansion.dds</File>
     <File md5="5C0F1D9D7503C1ECCFA0FDB0B4A3D329" import="1">Art/Icons/Religion/religioussymbolswhite80_expansion.dds</File>
-    <File md5="3837D52AA653AEE13CC61C8B8B6CEAC2" import="1">Art/Icons/Resource Icons/resourcesTwo2048.dds</File>
-    <File md5="F487B2243D28845B2C34A71A3D7B80BB" import="1">Art/Icons/Resource Icons/resourcesTwo360.dds</File>
-    <File md5="998B1F78797ACB5E1CC656BD2A6D9E69" import="1">Art/Icons/Resource Icons/resourcesTwo512.dds</File>
-    <File md5="1F931C83345CA92120D207547EAF2A07" import="1">Art/Icons/Resource Icons/resourcesTwo640.dds</File>
+    <File md5="ECA03E82761567A94D032E2D88AF8ABC" import="1">Art/Icons/Resource Icons/resourcesTwo2048.dds</File>
+    <File md5="E5A4A5729A7B11FCFF99A202EDC8BFFF" import="1">Art/Icons/Resource Icons/resourcesTwo360.dds</File>
+    <File md5="7276E8B8414A33FAC4BADF9AB5473710" import="1">Art/Icons/Resource Icons/resourcesTwo512.dds</File>
+    <File md5="5296ADC39D8DEDC43D9DA3B5EEDC6C7F" import="1">Art/Icons/Resource Icons/resourcesTwo640.dds</File>
     <File md5="4BB3245E64B013AF2279D3E03A295BC4" import="1">Art/Icons/Tech Icons/technologyatlasFive.dds</File>
     <File md5="F300F840BA3D7B9DEF096B38026E63B6" import="1">Art/Icons/Tech Icons/technologyatlasFive1024.dds</File>
     <File md5="113728754D3366FEEC88E5CA40CFEEE2" import="1">Art/Icons/Tech Icons/technologyatlasFive1712.dds</File>
@@ -1117,7 +1117,7 @@
     <File md5="2E31C159A19A2AB819BEC2218810E78E" import="0">Buildings/Buildings.xml</File>
     <File md5="34068EE04EE0AB707640427D709A523F" import="0">Buildings/MonopolyBuildingClasses.xml</File>
     <File md5="EA09A04E39ECB49C4045CF4C653D5760" import="1">Buildings/MonopolyBuildingIcons.xml</File>
-    <File md5="F7B35BAE12B29B37F31B8A26106D63BE" import="0">Buildings/MonopolyBuildings.xml</File>
+    <File md5="B2AA1996C383C730A523B997B38104D1" import="0">Buildings/MonopolyBuildings.xml</File>
     <File md5="60D1248B24CEBAE4C8789D83EDA5B566" import="1">Buildings/ProjectIcons.xml</File>
     <File md5="92EE8EA041E6B0EB82E7440C8CD0D49C" import="0">Buildings/Projects.xml</File>
     <File md5="82C0D153D0E26BE74023DA2876F20E89" import="0">Buildings/Specialists.xml</File>
