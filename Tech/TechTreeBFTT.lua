@@ -702,7 +702,7 @@ function AddTechButton( tech )
 			g_TechInstanceManager = g_TechInstanceSocialC
 			PCat = "TECHTREE_SOCIAL_CLASSES"
 		elseif tech.TechCat == "TECHTREE_REVOLUTIONARY_WARFARE" then
-			g_TechInstanceManager = g_TechRevWar
+			g_TechInstanceManager = g_TechInstanceRevWar
 			PCat = "TECHTREE_REVOLUTIONARY_WARFARE"
 		elseif tech.TechCat == "TECHTREE_MOLECULE" then
 			g_TechInstanceManager = g_TechInstanceMolecule
