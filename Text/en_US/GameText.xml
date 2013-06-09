@@ -4929,10 +4929,6 @@
 			<Where Tag="TXT_KEY_BUILDING_OXFORD_UNIVERSITY_HELP" />
 		</Update>
 		<Update>
-			<Set Text="City must be built next to a River or Lake."/>
-			<Where Tag="TXT_KEY_BUILDING_GARDEN_HELP" />
-		</Update>
-		<Update>
 			<Set Text="Greatly increases [ICON_CULTURE] Culture in this City.[NEWLINE][NEWLINE]City must have a Museum."/>
 			<Where Tag="TXT_KEY_BUILDING_BROADCAST_TOWER_HELP" />
 		</Update>
@@ -4945,7 +4941,7 @@
 			<Where Tag="TXT_KEY_BUILDING_BANK_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each source of [ICON_RES_IRON] Iron worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Military Academy."/>
+			<Set Text="City must have a Castle."/>
 			<Where Tag="TXT_KEY_BUILDING_ARSENAL_HELP" />
 		</Update>
 		<Update>

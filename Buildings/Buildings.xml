@@ -164,11 +164,6 @@
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_GARDEN</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_AQUARIUM</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>10</Yield>
@@ -797,11 +792,6 @@
 			<BuildingType>BUILDING_FORGE</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>4</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_ARSENAL</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>10</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STABLE</BuildingType>
@@ -1768,7 +1758,7 @@
 			<PortraitIndex>59</PortraitIndex>
 		</Row>
 		<Update>
-			<Set GoldMaintenance="0" Cost="1050" PrereqTech="TECH_REPLACEABLE_PARTS" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="1"/>
+			<Set GoldMaintenance="0" Cost="1050" PrereqTech="TECH_REPLACEABLE_PARTS" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="0"/>
 			<Where Type="BUILDING_ARSENAL"/>
 		</Update>
 		<Row>
@@ -4774,16 +4764,10 @@
 			<Where BuildingType="BUILDING_FORGE" FlavorType="FLAVOR_PRODUCTION" />
 			<Set Flavor="50" />
 		</Update>
-		<Delete BuildingType="BUILDING_GARDEN" FlavorType="FLAVOR_GREAT_PEOPLE" />
 		<Row>
 			<BuildingType>BUILDING_GARDEN</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_GARDEN</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>30</Flavor>
 		</Row>
 		<Update>
 			<Where BuildingType="BUILDING_HARBOR" FlavorType="FLAVOR_NAVAL" />
@@ -5138,26 +5122,13 @@
 			<Flavor>18</Flavor>
 		</Row>
 		<Update>
-			<Where BuildingType="BUILDING_ARSENAL" FlavorType="FLAVOR_PRODUCTION" />
-			<Set Flavor="55" />   
-		</Update>
-		<Update>
-			<Where BuildingType="BUILDING_ARSENAL" FlavorType="FLAVOR_OFFENSE" />
-			<Set Flavor="5" />
-		</Update>
-		<Update>
 			<Where BuildingType="BUILDING_ARSENAL" FlavorType="FLAVOR_DEFENSE" />
 			<Set Flavor="2" />
 		</Update>
 		<Update>
 			<Where BuildingType="BUILDING_ARSENAL" FlavorType="FLAVOR_CITY_DEFENSE" />
-			<Set Flavor="25" />
+			<Set Flavor="75" />
 		</Update>
-		<Row>
-			<BuildingType>BUILDING_ARSENAL</BuildingType>
-			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
 		<Row>
 			<BuildingType>BUILDING_AUTO_PLANT</BuildingType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -8118,12 +8089,6 @@
 			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_ARSENAL</BuildingType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
