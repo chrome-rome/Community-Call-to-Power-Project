@@ -1114,7 +1114,7 @@
     <File md5="0A0D119DD3824FFFA1D66799A28A7E35" import="1">Art/Wonder Splash/SplashZiggurat.dds</File>
     <File md5="27DA64BC8CA4579FFA85BD0FF1F75C99" import="0">Buildings/BuildingClasses.xml</File>
     <File md5="F7B896F4F1AF295B229B1736D282A9D2" import="1">Buildings/BuildingIcons.xml</File>
-    <File md5="2E31C159A19A2AB819BEC2218810E78E" import="0">Buildings/Buildings.xml</File>
+    <File md5="7765783359FC221BC3FED9643CC1662B" import="0">Buildings/Buildings.xml</File>
     <File md5="34068EE04EE0AB707640427D709A523F" import="0">Buildings/MonopolyBuildingClasses.xml</File>
     <File md5="EA09A04E39ECB49C4045CF4C653D5760" import="1">Buildings/MonopolyBuildingIcons.xml</File>
     <File md5="B2AA1996C383C730A523B997B38104D1" import="0">Buildings/MonopolyBuildings.xml</File>
@@ -1207,7 +1207,7 @@
     <File md5="D8782BD8D658CF410E6AFEE39050806D" import="0">Terrain/Routes.xml</File>
     <File md5="77F1B115A1D8821E7E0F9D191F7AAC8F" import="0">Terrain/Terrains.xml</File>
     <File md5="FF534A62B6F2AB906EBE1019EC88964F" import="0">Text/en_US/CsebExtendedPlotMouseover.xml</File>
-    <File md5="AF6F7C529E7F8AB6FDD7EAF2A5864706" import="0">Text/en_US/GameText.xml</File>
+    <File md5="8BB6C44FE58FD4202C09590EBDE5A27F" import="0">Text/en_US/GameText.xml</File>
     <File md5="B691DD8D4B67D07B71A516E1A51F915A" import="0">Text/en_US/MapMenuTXT.xml</File>
     <File md5="249DFD66B7F776E2DEB70B55379AFC9F" import="0">Text/en_US/MonopolyText.xml</File>
     <File md5="9B8094C470FEC27B44AB5B5136FB3181" import="0">Text/en_US/PolicyText.xml</File>
