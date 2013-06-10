@@ -5,7 +5,7 @@
     <Stability>Beta</Stability>
     <Teaser>Mod loosely based on the popular Call to Power games.</Teaser>
     <Description>Mod loosely based on the popular Call to Power games.
-6/8/2013</Description>
+6/10/2013</Description>
     <Authors>Erik</Authors>
     <HideSetupGame>1</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
@@ -43,11 +43,11 @@
     <File md5="0036C6ECA8DFAFEDE08D9B2B64F644E5" import="1">Art/Icons/Building Icons/buildingatlasThree360.dds</File>
     <File md5="3565060EE869A1A69A5AD86425B0A98E" import="1">Art/Icons/Building Icons/buildingatlasThree512.dds</File>
     <File md5="1B6E248D6209AEB30CAA4EF270978F6F" import="1">Art/Icons/Building Icons/buildingatlasThree640.dds</File>
-    <File md5="1D217111AA9C5166CC81959730DDAB8C" import="1">Art/Icons/Building Icons/buildingatlasTwo.dds</File>
-    <File md5="536FE6E3B3E46E35783649E7B53E3200" import="1">Art/Icons/Building Icons/buildingatlasTwo1024.dds</File>
-    <File md5="230057A736B8571FD04AB3686F7D008F" import="1">Art/Icons/Building Icons/buildingatlasTwo360.dds</File>
-    <File md5="84BEA8519FBF9A28BF03B8BF2EEC68E1" import="1">Art/Icons/Building Icons/buildingatlasTwo512.dds</File>
-    <File md5="DF56EF3D9AD89CD21B591AC91C2390FE" import="1">Art/Icons/Building Icons/buildingatlasTwo640.dds</File>
+    <File md5="4F0BDE14541F3972B22BBE453C2FB3AA" import="1">Art/Icons/Building Icons/buildingatlasTwo.dds</File>
+    <File md5="A1B1B7CEE8A39D911557C9CF10D3F296" import="1">Art/Icons/Building Icons/buildingatlasTwo1024.dds</File>
+    <File md5="DBF4CDBDD55A62B0DAE8D0B941006537" import="1">Art/Icons/Building Icons/buildingatlasTwo360.dds</File>
+    <File md5="FB06B94CF3905D01259E7EBFF6FF55EA" import="1">Art/Icons/Building Icons/buildingatlasTwo512.dds</File>
+    <File md5="CC8435D75385726A7C7A8E871EBC04A5" import="1">Art/Icons/Building Icons/buildingatlasTwo640.dds</File>
     <File md5="C48C94C64387B0A9436F7D9D57D23A1C" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive.dds</File>
     <File md5="E0677498657F5B9A0E43184CA0628900" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive1024.dds</File>
     <File md5="E5CE3F5AE9F355F97C83F96B886608FC" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive360.dds</File>
@@ -1112,9 +1112,9 @@
     <File md5="63442591DA5A07FBBBA5491E5B3B16D9" import="1">Art/Wonder Splash/SplashWealthOfNations.dds</File>
     <File md5="0FD2B19C5FF08DA168714C2CD5347DD4" import="1">Art/Wonder Splash/SplashZeus.dds</File>
     <File md5="0A0D119DD3824FFFA1D66799A28A7E35" import="1">Art/Wonder Splash/SplashZiggurat.dds</File>
-    <File md5="27DA64BC8CA4579FFA85BD0FF1F75C99" import="0">Buildings/BuildingClasses.xml</File>
-    <File md5="F7B896F4F1AF295B229B1736D282A9D2" import="1">Buildings/BuildingIcons.xml</File>
-    <File md5="2E31C159A19A2AB819BEC2218810E78E" import="0">Buildings/Buildings.xml</File>
+    <File md5="A0ABFA8228D7209B4C002E0815C82574" import="0">Buildings/BuildingClasses.xml</File>
+    <File md5="92102C3D52FD6016B559386BFBC55A6A" import="1">Buildings/BuildingIcons.xml</File>
+    <File md5="B8F862BCBA304CC5E9739E77E305F5CC" import="0">Buildings/Buildings.xml</File>
     <File md5="34068EE04EE0AB707640427D709A523F" import="0">Buildings/MonopolyBuildingClasses.xml</File>
     <File md5="EA09A04E39ECB49C4045CF4C653D5760" import="1">Buildings/MonopolyBuildingIcons.xml</File>
     <File md5="B2AA1996C383C730A523B997B38104D1" import="0">Buildings/MonopolyBuildings.xml</File>
@@ -1186,18 +1186,18 @@
     <File md5="7388C7E662F3CDFBC670DFE7AD84E527" import="1">Policy/SocialPolicyPopup.lua</File>
     <File md5="2AEF55E2AEF7EF513B9B007CA0EEF604" import="1">Policy/SocialPolicyPopup.xml</File>
     <File md5="34B522D497F8B6E31AEF8C14E32F8039" import="0">README</File>
-    <File md5="5FF512BE07D08A7013250F9DCB88D33B" import="0">Tech/Eras.xml</File>
+    <File md5="B4B4B57F8AC813B4F3D3E407701BC39C" import="0">Tech/Eras.xml</File>
     <File md5="69C7F67174FBD39EBC2DA97ECC829320" import="1">Tech/TechButtonInclude.lua</File>
-    <File md5="EA23D2DBDBA5349561C90ED35563B8F4" import="0">Tech/TechCategories.xml</File>
-    <File md5="F9D2A48E55191DEA051FD6508AC956D7" import="1">Tech/TechHelpInclude.lua</File>
-    <File md5="91383E5426E172886069034D636BAD4D" import="1">Tech/TechIcons.xml</File>
-    <File md5="E11AD043DAE155B72776688DDF522B97" import="0">Tech/Technologies.sql</File>
+    <File md5="F03DBE88341CDE1C16D300CC8B72AB58" import="0">Tech/TechCategories.xml</File>
+    <File md5="38207E4347EFD34902E08839C3C2EF4B" import="1">Tech/TechHelpInclude.lua</File>
+    <File md5="202FA837CB2AA93CD439A0AEFCE12293" import="1">Tech/TechIcons.xml</File>
+    <File md5="3863D7FEE5A1E8F8BF55E51B4C434EE2" import="0">Tech/Technologies.sql</File>
     <File md5="B115B3BAA66682FB2C4159C5570C328E" import="0">Tech/Technology_Flavors.sql</File>
-    <File md5="1CF2ED49C5DC55B5A0BC2805264B6B81" import="0">Tech/Technology_PrereqTechs.sql</File>
-    <File md5="39DB9458CD42C3D27A29B8A54E315D39" import="1">Tech/TechTree.lua</File>
-    <File md5="A070598F4F59DEEE5D1D62C83511BE4D" import="1">Tech/TechTree.xml</File>
-    <File md5="8B9763EDF6112D11C474FC1BE74549E8" import="1">Tech/TechTreeBFTT.lua</File>
-    <File md5="8D710B3A3E6BFA4AE5200AF481090324" import="1">Tech/TechTreeBFTT.xml</File>
+    <File md5="A3F9F0B186E48E9EC51A03D3A3E43CFC" import="0">Tech/Technology_PrereqTechs.sql</File>
+    <File md5="2D01B85264F4EAE73A05EE3936AC87C1" import="1">Tech/TechTree.lua</File>
+    <File md5="CC5C69AE0E3312212F6118D4895ECD6B" import="1">Tech/TechTree.xml</File>
+    <File md5="FBA30BB3543A5219E9CAFC43FDC1902B" import="1">Tech/TechTreeBFTT.lua</File>
+    <File md5="22DA51495D7E298503CC6DAF4BE9153F" import="1">Tech/TechTreeBFTT.xml</File>
     <File md5="2D62C27914A5D01D7622736C259E54D4" import="1">Terrain/AssignStartingPlots.lua</File>
     <File md5="3EE52BA40DCFA0F6505DD19BB5383D79" import="0">Terrain/Features.xml</File>
     <File md5="6D97C07A92B1EA68E7B33CD110B9D9FD" import="0">Terrain/Improvements.xml</File>
@@ -1207,7 +1207,7 @@
     <File md5="D8782BD8D658CF410E6AFEE39050806D" import="0">Terrain/Routes.xml</File>
     <File md5="77F1B115A1D8821E7E0F9D191F7AAC8F" import="0">Terrain/Terrains.xml</File>
     <File md5="FF534A62B6F2AB906EBE1019EC88964F" import="0">Text/en_US/CsebExtendedPlotMouseover.xml</File>
-    <File md5="AF6F7C529E7F8AB6FDD7EAF2A5864706" import="0">Text/en_US/GameText.xml</File>
+    <File md5="D16DAAD8C16CE1A9045E9EB23CCA049F" import="0">Text/en_US/GameText.xml</File>
     <File md5="B691DD8D4B67D07B71A516E1A51F915A" import="0">Text/en_US/MapMenuTXT.xml</File>
     <File md5="249DFD66B7F776E2DEB70B55379AFC9F" import="0">Text/en_US/MonopolyText.xml</File>
     <File md5="9B8094C470FEC27B44AB5B5136FB3181" import="0">Text/en_US/PolicyText.xml</File>
@@ -1227,8 +1227,8 @@
     <File md5="54BB852D1439588F1D031F5E241512DE" import="1">UI/UnitPanel/UnitPanel.xml</File>
     <File md5="875F00A6E21FDF800307DB3998FB52A6" import="1">UI/UnitPanel/UnitPanel_small.xml</File>
     <File md5="EFB82AA200DEBAD8FE2D6F3702F9FDC2" import="0">Units/Builds.xml</File>
-    <File md5="1D6413A4C338AEDE18C2C8694F3B974D" import="0">Units/UnitClasses.sql</File>
-    <File md5="78BC4432605CD7438F2C5E6696DC29FA" import="0">Units/Units.xml</File>
+    <File md5="43BF67EC65BF5315FFC88822F2276F73" import="0">Units/UnitClasses.sql</File>
+    <File md5="70284C5B9E275BC850422B33A4832B00" import="0">Units/Units.xml</File>
     <File md5="27A13190F2443DA4E5EC669C23E7D038" import="0">Units/UnitsThatIgnoreBorders.xml</File>
     <File md5="E14041A6162C83F3D400252307A19864" import="0">Units/Update_UnitArtDefines.xml</File>
     <File md5="935704F765AD407AE9A9CC315F1D74F9" import="0">Version History.txt</File>
