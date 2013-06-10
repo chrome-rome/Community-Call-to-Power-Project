@@ -362,9 +362,9 @@
 			<DefaultBuilding>BUILDING_AUTO_PLANT</DefaultBuilding>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_RECYCLING_PLANT</Type>
-			<Description>TXT_KEY_BUILDING_RECYCLING_PLANT</Description>
-			<DefaultBuilding>BUILDING_RECYCLING_PLANT</DefaultBuilding>
+			<Type>BUILDINGCLASS_CURATED_MUSEUM</Type>
+			<Description>TXT_KEY_BUILDING_CURATED_MUSEUM</Description>
+			<DefaultBuilding>BUILDING_CURATED_MUSEUM</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_MASS_TRANSIT</Type>

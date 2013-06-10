@@ -744,7 +744,7 @@
 			<Yield>15</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
+			<BuildingType>BUILDING_CURATED_MUSEUM</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>2</Yield>
 		</Row>
@@ -1750,7 +1750,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_AIRCRAFT_PLANT</BuildingClass>
-			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+			<PrereqTech>TECH_FLIGHT</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>0</GreatPeopleRateChange>
@@ -1773,7 +1773,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_AUTO_PLANT</BuildingClass>
-			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+			<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>0</GreatPeopleRateChange>
@@ -1860,7 +1860,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_INDUSTRIAL_SHIPYARD</BuildingClass>
-			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+			<PrereqTech>TECH_BIG_GUNS_DOCTRINE</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>0</GreatPeopleRateChange>
@@ -1915,7 +1915,7 @@
 			<Happiness>3</Happiness>
 			<BuildingClass>BUILDINGCLASS_MASS_TRANSIT</BuildingClass>
 			<FreeStartEra>ERA_FUTURE</FreeStartEra>
-			<PrereqTech>TECH_ECOLOGY</PrereqTech>
+			<PrereqTech>TECH_COMBUSTION</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
@@ -1990,20 +1990,20 @@
 			<PortraitIndex>47</PortraitIndex>
 		</Row>-->
 		<Row>
-			<Type>BUILDING_RECYCLING_PLANT</Type>
-			<Description>TXT_KEY_BUILDING_RECYCLING_PLANT</Description>
-			<Civilopedia>TXT_KEY_BUILDING_RECYCLING_PLANT_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_RECYCLING_PLANT_HELP</Help>
+			<Type>BUILDING_CURATED_MUSEUM</Type>
+			<Description>TXT_KEY_BUILDING_CURATED_MUSEUM</Description>
+			<Civilopedia>TXT_KEY_BUILDING_CURATED_MUSEUM_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_CURATED_MUSEUM_HELP</Help>
 			<GoldMaintenance>5</GoldMaintenance>
 			<Cost>1050</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<Happiness>2</Happiness>
-			<BuildingClass>BUILDINGCLASS_RECYCLING_PLANT</BuildingClass>
+			<BuildingClass>BUILDINGCLASS_CURATED_MUSEUM</BuildingClass>
 			<FreeStartEra>ERA_FUTURE</FreeStartEra>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
-			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>0</GreatPeopleRateChange>
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
@@ -3663,7 +3663,7 @@
 			<HappinessPerCity>1</HappinessPerCity>
 			<BuildingClass>BUILDINGCLASS_NATIONAL_PARK_SERVICE</BuildingClass>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
-			<PrereqTech>TECH_CONSERVATIONISM</PrereqTech>
+			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<IconAtlas>BW_ATLAS_5</IconAtlas>
 			<PortraitIndex>11</PortraitIndex>
 		</Row>
@@ -5364,17 +5364,22 @@
 			<Flavor>30</Flavor>
 		</Row>-->
 		<Row>
-			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
+			<BuildingType>BUILDING_CURATED_MUSEUM</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>65</Flavor>
+			<BuildingType>BUILDING_CURATED_MUSEUM</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
+			<BuildingType>BUILDING_CURATED_MUSEUM</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CURATED_MUSEUM</BuildingType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>7</Flavor>
 		</Row>
@@ -7853,11 +7858,11 @@
 			<ResourceType>RESOURCE_SUGAR</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
+			<BuildingType>BUILDING_CURATED_MUSEUM</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
+			<BuildingType>BUILDING_CURATED_MUSEUM</BuildingType>
 			<ResourceType>RESOURCE_SILK</ResourceType>
 		</Row>
 		<Row>
@@ -8206,25 +8211,25 @@
 			<Yield>3</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
+			<BuildingType>BUILDING_CURATED_MUSEUM</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
+			<BuildingType>BUILDING_CURATED_MUSEUM</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
+			<BuildingType>BUILDING_CURATED_MUSEUM</BuildingType>
 			<ResourceType>RESOURCE_SILK</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
+			<BuildingType>BUILDING_CURATED_MUSEUM</BuildingType>
 			<ResourceType>RESOURCE_SILK</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>

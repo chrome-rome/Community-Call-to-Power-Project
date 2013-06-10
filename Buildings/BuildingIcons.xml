@@ -339,7 +339,7 @@
 		</Update>
 		<Update>
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="54"/>
-			<Where Type="BUILDING_RECYCLING_PLANT"/>
+			<Where Type="BUILDING_CURATED_MUSEUM"/>
 		</Update>
 		<Update>
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="55"/>

@@ -1144,16 +1144,16 @@
 			<Text>Required for Tank, Panzer, Modern Armor, and Rocket Artillery production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil for construction.[NEWLINE]City must have a Factory and must not contain an Aircraft Plant or Industrial Shipyard.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_RECYCLING_PLANT</Tag>
-			<Text>Recycling Plant</Text>
+			<Tag>TXT_KEY_BUILDING_CURATED_MUSEUM</Tag>
+			<Text>Curated Museum</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_RECYCLING_PLANT_DESC</Tag>
-			<Text>Recycling involves processing used materials (waste) into new products to prevent waste of potentially useful materials, reduce the consumption of fresh raw materials, reduce energy usage, reduce air pollution (from incineration) and water pollution (from landfilling) by reducing the need for "conventional" waste disposal, and lower greenhouse gas emissions as compared to virgin production.  Recycling is a key component of modern waste reduction and is the third component of the "Reduce, Reuse, Recycle" waste hierarchy.</Text>
+			<Tag>TXT_KEY_BUILDING_CURATED_MUSEUM_DESC</Tag>
+			<Text>An art gallery or art museum is a building or space for the exhibition of art, usually visual art. Museums can be public or private, but what distinguishes a museum is the ownership of a collection. Paintings are the most commonly displayed art objects; however, sculpture, decorative arts, furniture, textiles, costume, drawings, pastels, watercolors, collages, prints, artists' books, photographs, and installation art are also regularly shown. Although primarily concerned with providing a space to show works of visual art, art galleries are sometimes used to host other artistic activities, such as performance art, music concerts, or poetry readings.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_RECYCLING_PLANT_HELP</Tag>
-			<Text>Each source of [ICON_RES_MARBLE] Marble or [ICON_RES_SILK] Silk worked by this City produces +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of one of these resources nearby.</Text>
+			<Tag>TXT_KEY_BUILDING_CURATED_MUSEUM_HELP</Tag>
+			<Text>Each source of [ICON_RES_MARBLE] Marble or [ICON_RES_SILK] Silk worked by this City produces +1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of one of these resources nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MASS_TRANSIT</Tag>
